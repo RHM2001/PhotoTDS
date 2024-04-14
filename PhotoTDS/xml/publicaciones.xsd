@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.tds.es/fotos" xmlns="http://www.tds.es/fotos"
+    elementFormDefault="qualified">
+    
+    <xs:element name="publicaciones">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="publicacion" type="Publicacion" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="Publicacion">
+        <xs:sequence>
+            <xs:element name="usuario" type="xs:string" minOccurs="1" maxOccurs="1" />
+            <xs:element name="descripcion" type="xs:string" minOccurs="0" maxOccurs="1" />
+            <xs:element name="meGusta" type="xs:int" minOccurs="1" maxOccurs="1" />
+            <xs:element name="hashtags" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="file" type="xs:string" minOccurs="0" maxOccurs="1" />
+            <xs:element name="comentarios" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publicaciones xmlns="http://www.tds.es/fotos" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:schemaLocation="http://www.tds.es/fotos publicaciones.xsd">
+    
+    <publicacion>
+        <usuario>raul</usuario>
+        <descripcion>Prueba del cargador</descripcion>
+        <meGusta>0</meGusta>
+        <hashtags>prueba</hashtags>
+        <file>C:\Users\Raul-\Pictures\Night Sky - frame at 0m1s.jpg</file>
+        <comentarios>Prueba de comentarios</comentarios>
+    </publicacion>
+
+</publicaciones>
